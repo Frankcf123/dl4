@@ -11759,7 +11759,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -11791,7 +11791,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">view_sentence_range</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
@@ -11879,7 +11879,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">text_to_ids</span><span class="p">(</span><span class="n">source_text</span><span class="p">,</span> <span class="n">target_text</span><span class="p">,</span> <span class="n">source_vocab_to_int</span><span class="p">,</span> <span class="n">target_vocab_to_int</span><span class="p">):</span>
@@ -11941,7 +11941,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -11967,7 +11967,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -11997,7 +11997,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12077,7 +12077,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">model_inputs</span><span class="p">():</span>
@@ -12089,9 +12089,9 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
     <span class="c1"># TODO: Implement Function</span>
     <span class="n">input_</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">int32</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span><span class="p">[</span><span class="kc">None</span><span class="p">,</span><span class="kc">None</span><span class="p">],</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;input&quot;</span><span class="p">)</span>
     <span class="n">target_</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">int32</span><span class="p">,</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">),)</span>
-    <span class="n">learning_rate</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">))</span>
-    <span class="n">keep_prob</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">),</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;keep_prob&quot;</span><span class="p">)</span>
-    <span class="n">target_sequence_length</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">int32</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;target_sequence_length&quot;</span><span class="p">)</span>
+    <span class="n">learning_rate</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+    <span class="n">keep_prob</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;keep_prob&quot;</span><span class="p">)</span>
+    <span class="n">target_sequence_length</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">int32</span><span class="p">,</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">,),</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;target_sequence_length&quot;</span><span class="p">)</span>
     <span class="n">max_target_len</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">reduce_max</span><span class="p">(</span><span class="n">target_sequence_length</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;max_target_len&quot;</span><span class="p">)</span>
     <span class="n">source_sequence_length</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">int32</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="p">),</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;source_sequence_length&quot;</span><span class="p">)</span>
 
@@ -12135,7 +12135,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">process_decoder_input</span><span class="p">(</span><span class="n">target_data</span><span class="p">,</span> <span class="n">target_vocab_to_int</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">):</span>
@@ -12193,7 +12193,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">imp</span> <span class="k">import</span> <span class="n">reload</span>
@@ -12262,7 +12262,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">decoding_layer_train</span><span class="p">(</span><span class="n">encoder_state</span><span class="p">,</span> <span class="n">dec_cell</span><span class="p">,</span> <span class="n">dec_embed_input</span><span class="p">,</span> 
@@ -12329,7 +12329,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">decoding_layer_infer</span><span class="p">(</span><span class="n">encoder_state</span><span class="p">,</span> <span class="n">dec_cell</span><span class="p">,</span> <span class="n">dec_embeddings</span><span class="p">,</span> <span class="n">start_of_sequence_id</span><span class="p">,</span>
@@ -12407,7 +12407,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">decoding_layer</span><span class="p">(</span><span class="n">dec_input</span><span class="p">,</span> <span class="n">encoder_state</span><span class="p">,</span>
@@ -12498,7 +12498,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">seq2seq_model</span><span class="p">(</span><span class="n">input_data</span><span class="p">,</span> <span class="n">target_data</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span>
@@ -12586,22 +12586,22 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of Epochs</span>
-<span class="n">epochs</span> <span class="o">=</span> <span class="mi">50</span>
+<span class="n">epochs</span> <span class="o">=</span> <span class="mi">500</span>
 <span class="c1"># Batch Size</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">256</span>
 <span class="c1"># RNN Size</span>
-<span class="n">rnn_size</span> <span class="o">=</span> <span class="mi">512</span>
+<span class="n">rnn_size</span> <span class="o">=</span> <span class="mi">300</span>
 <span class="c1"># Number of Layers</span>
 <span class="n">num_layers</span> <span class="o">=</span> <span class="mi">3</span>
 <span class="c1"># Embedding Size</span>
-<span class="n">encoding_embedding_size</span> <span class="o">=</span> <span class="mi">31</span>
-<span class="n">decoding_embedding_size</span> <span class="o">=</span> <span class="mi">31</span>
+<span class="n">encoding_embedding_size</span> <span class="o">=</span> <span class="mi">77</span>
+<span class="n">decoding_embedding_size</span> <span class="o">=</span> <span class="mi">77</span>
 <span class="c1"># Learning Rate</span>
-<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.008</span>
 <span class="c1"># Dropout Keep Probability</span>
 <span class="n">keep_probability</span> <span class="o">=</span> <span class="mf">0.8</span>
 <span class="n">display_step</span> <span class="o">=</span> <span class="mi">10</span>
@@ -12624,7 +12624,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12682,57 +12682,6 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">ValueError</span>                                Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-79-a6d1c9e78e5d&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">     26</span>                                                    rnn_size<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-intense-fg ansi-bold">     27</span>                                                    num_layers<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">---&gt; 28</span><span class="ansi-red-fg">                                                    target_vocab_to_int)
-</span><span class="ansi-green-intense-fg ansi-bold">     29</span> 
-<span class="ansi-green-intense-fg ansi-bold">     30</span> 
-
-<span class="ansi-green-fg">&lt;ipython-input-71-16bc8c1c18b3&gt;</span> in <span class="ansi-cyan-fg">seq2seq_model</span><span class="ansi-blue-fg">(input_data, target_data, keep_prob, batch_size, source_sequence_length, target_sequence_length, max_target_sentence_length, source_vocab_size, target_vocab_size, enc_embedding_size, dec_embedding_size, rnn_size, num_layers, target_vocab_to_int)</span>
-<span class="ansi-green-intense-fg ansi-bold">     31</span>     training_decoder_output, inference_decoder_output = decoding_layer(dec_input, enc_state, target_sequence_length, max_target_sentence_length,
-<span class="ansi-green-intense-fg ansi-bold">     32</span>                                 rnn_size<span class="ansi-yellow-intense-fg ansi-bold">,</span> num_layers<span class="ansi-yellow-intense-fg ansi-bold">,</span> target_vocab_to_int<span class="ansi-yellow-intense-fg ansi-bold">,</span> target_vocab_size<span class="ansi-yellow-intense-fg ansi-bold">,</span> batch_size<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">---&gt; 33</span><span class="ansi-red-fg">                                 keep_prob, dec_embedding_size)
-</span><span class="ansi-green-intense-fg ansi-bold">     34</span> 
-<span class="ansi-green-intense-fg ansi-bold">     35</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> training_decoder_output<span class="ansi-yellow-intense-fg ansi-bold">,</span> inference_decoder_output
-
-<span class="ansi-green-fg">&lt;ipython-input-70-795c003457df&gt;</span> in <span class="ansi-cyan-fg">decoding_layer</span><span class="ansi-blue-fg">(dec_input, encoder_state, target_sequence_length, max_target_sequence_length, rnn_size, num_layers, target_vocab_to_int, target_vocab_size, batch_size, keep_prob, decoding_embedding_size)</span>
-<span class="ansi-green-intense-fg ansi-bold">     34</span>     <span class="ansi-green-intense-fg ansi-bold">with</span> tf<span class="ansi-yellow-intense-fg ansi-bold">.</span>variable_scope<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;decode&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">     35</span>         training = decoding_layer_train(encoder_state, dec_cell, dec_embed_input, target_sequence_length,
-<span class="ansi-green-fg">---&gt; 36</span><span class="ansi-red-fg">                                     max_target_sequence_length, output_layer, keep_prob)
-</span><span class="ansi-green-intense-fg ansi-bold">     37</span>     <span class="ansi-red-intense-fg ansi-bold">#(encoder_state, dec_cell, dec_embed_input, target_sequence_length, max_summary_length, output_layer, keep_prob)</span>
-<span class="ansi-green-intense-fg ansi-bold">     38</span>     <span class="ansi-green-intense-fg ansi-bold">with</span> tf<span class="ansi-yellow-intense-fg ansi-bold">.</span>variable_scope<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;decode&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> reuse<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-fg">&lt;ipython-input-68-9ec785cdcf68&gt;</span> in <span class="ansi-cyan-fg">decoding_layer_train</span><span class="ansi-blue-fg">(encoder_state, dec_cell, dec_embed_input, target_sequence_length, max_summary_length, output_layer, keep_prob)</span>
-<span class="ansi-green-intense-fg ansi-bold">     15</span>     &#34;&#34;&#34;
-<span class="ansi-green-intense-fg ansi-bold">     16</span>     <span class="ansi-red-intense-fg ansi-bold"># TODO: Implement Function</span>
-<span class="ansi-green-fg">---&gt; 17</span><span class="ansi-red-fg">     </span>training_helper <span class="ansi-yellow-intense-fg ansi-bold">=</span> tf<span class="ansi-yellow-intense-fg ansi-bold">.</span>contrib<span class="ansi-yellow-intense-fg ansi-bold">.</span>seq2seq<span class="ansi-yellow-intense-fg ansi-bold">.</span>TrainingHelper<span class="ansi-yellow-intense-fg ansi-bold">(</span>inputs<span class="ansi-yellow-intense-fg ansi-bold">=</span>dec_embed_input<span class="ansi-yellow-intense-fg ansi-bold">,</span> sequence_length<span class="ansi-yellow-intense-fg ansi-bold">=</span>target_sequence_length<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     18</span>     decoder <span class="ansi-yellow-intense-fg ansi-bold">=</span> tf<span class="ansi-yellow-intense-fg ansi-bold">.</span>contrib<span class="ansi-yellow-intense-fg ansi-bold">.</span>seq2seq<span class="ansi-yellow-intense-fg ansi-bold">.</span>BasicDecoder<span class="ansi-yellow-intense-fg ansi-bold">(</span>cell<span class="ansi-yellow-intense-fg ansi-bold">=</span>dec_cell<span class="ansi-yellow-intense-fg ansi-bold">,</span> helper<span class="ansi-yellow-intense-fg ansi-bold">=</span>training_helper<span class="ansi-yellow-intense-fg ansi-bold">,</span>initial_state<span class="ansi-yellow-intense-fg ansi-bold">=</span>encoder_state<span class="ansi-yellow-intense-fg ansi-bold">,</span> output_layer<span class="ansi-yellow-intense-fg ansi-bold">=</span>output_layer<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     19</span>     training_decoder_output<span class="ansi-yellow-intense-fg ansi-bold">,</span> _ <span class="ansi-yellow-intense-fg ansi-bold">=</span> tf<span class="ansi-yellow-intense-fg ansi-bold">.</span>contrib<span class="ansi-yellow-intense-fg ansi-bold">.</span>seq2seq<span class="ansi-yellow-intense-fg ansi-bold">.</span>dynamic_decode<span class="ansi-yellow-intense-fg ansi-bold">(</span>decoder<span class="ansi-yellow-intense-fg ansi-bold">,</span> impute_finished<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>maximum_iterations<span class="ansi-yellow-intense-fg ansi-bold">=</span>max_summary_length<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-fg">C:\Program Files\Anaconda3\envs\dlnd\lib\site-packages\tensorflow\contrib\seq2seq\python\ops\helper.py</span> in <span class="ansi-cyan-fg">__init__</span><span class="ansi-blue-fg">(self, inputs, sequence_length, time_major, name)</span>
-<span class="ansi-green-intense-fg ansi-bold">    155</span>         raise ValueError(
-<span class="ansi-green-intense-fg ansi-bold">    156</span>             <span class="ansi-blue-intense-fg ansi-bold">&#34;Expected sequence_length to be a vector, but received shape: %s&#34;</span> <span class="ansi-yellow-intense-fg ansi-bold">%</span>
-<span class="ansi-green-fg">--&gt; 157</span><span class="ansi-red-fg">             self._sequence_length.get_shape())
-</span><span class="ansi-green-intense-fg ansi-bold">    158</span> 
-<span class="ansi-green-intense-fg ansi-bold">    159</span>       self._zero_inputs = nest.map_structure(
-
-<span class="ansi-red-fg">ValueError</span>: Expected sequence_length to be a vector, but received shape: &lt;unknown&gt;</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -12746,7 +12695,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12800,7 +12749,7 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12893,18 +12842,26 @@ les états-unis est parfois occupé en janvier , et il est parfois chaud en nove
 
 
 <div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-75-8b554ffa681f&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">     40</span> 
-<span class="ansi-green-intense-fg ansi-bold">     41</span>             _, loss = sess.run(
-<span class="ansi-green-fg">---&gt; 42</span><span class="ansi-red-fg">                 </span><span class="ansi-yellow-intense-fg ansi-bold">[</span>train_op<span class="ansi-yellow-intense-fg ansi-bold">,</span> cost<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-intense-fg ansi-bold">     43</span>                 {input_data: source_batch,
-<span class="ansi-green-intense-fg ansi-bold">     44</span>                  targets<span class="ansi-yellow-intense-fg ansi-bold">:</span> target_batch<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-
-<span class="ansi-red-fg">NameError</span>: name &#39;train_op&#39; is not defined</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Epoch   0 Batch   10/538 - Train Accuracy: 0.2613, Validation Accuracy: 0.3491, Loss: 3.5082
+Epoch   0 Batch   20/538 - Train Accuracy: 0.3082, Validation Accuracy: 0.3530, Loss: 3.0382
+Epoch   0 Batch   30/538 - Train Accuracy: 0.3395, Validation Accuracy: 0.4032, Loss: 2.9436
+Epoch   0 Batch   40/538 - Train Accuracy: 0.4251, Validation Accuracy: 0.4302, Loss: 2.4922
+Epoch   0 Batch   50/538 - Train Accuracy: 0.4143, Validation Accuracy: 0.4604, Loss: 2.4340
+Epoch   0 Batch   60/538 - Train Accuracy: 0.4125, Validation Accuracy: 0.4734, Loss: 2.2974
+Epoch   0 Batch   70/538 - Train Accuracy: 0.4494, Validation Accuracy: 0.4757, Loss: 2.0724
+Epoch   0 Batch   80/538 - Train Accuracy: 0.4633, Validation Accuracy: 0.5213, Loss: 2.1117
+Epoch   0 Batch   90/538 - Train Accuracy: 0.4888, Validation Accuracy: 0.5151, Loss: 1.9214
+Epoch   0 Batch  100/538 - Train Accuracy: 0.4967, Validation Accuracy: 0.5265, Loss: 1.8614
+Epoch   0 Batch  110/538 - Train Accuracy: 0.4859, Validation Accuracy: 0.5439, Loss: 1.8014
+Epoch   0 Batch  120/538 - Train Accuracy: 0.5121, Validation Accuracy: 0.5517, Loss: 1.6598
+Epoch   0 Batch  130/538 - Train Accuracy: 0.5100, Validation Accuracy: 0.5257, Loss: 1.5981
+Epoch   0 Batch  140/538 - Train Accuracy: 0.4838, Validation Accuracy: 0.5360, Loss: 1.5720
+Epoch   0 Batch  150/538 - Train Accuracy: 0.5541, Validation Accuracy: 0.5829, Loss: 1.3521
+Epoch   0 Batch  160/538 - Train Accuracy: 0.5575, Validation Accuracy: 0.5769, Loss: 1.1346
+Epoch   0 Batch  170/538 - Train Accuracy: 0.5746, Validation Accuracy: 0.5868, Loss: 1.0566
+Epoch   0 Batch  180/538 - Train Accuracy: 0.5995, Validation Accuracy: 0.5755, Loss: 0.9637
+</pre>
 </div>
 </div>
 
